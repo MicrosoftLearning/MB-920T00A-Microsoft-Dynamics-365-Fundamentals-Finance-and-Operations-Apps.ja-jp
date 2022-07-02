@@ -21,7 +21,7 @@ ms.locfileid: "137909996"
 
 **手順**
 
-1. Finance and Operations 「ホーム」ページの右上で、USMF 社の作業を行っていることを確認します。
+1. Finance and Operations の [ホーム] ページの右上で、USMF 社の作業を行っていることを確認します。
 
 2. 必要な場合、会社を選び、メニューから **USMF** を選択します。
 

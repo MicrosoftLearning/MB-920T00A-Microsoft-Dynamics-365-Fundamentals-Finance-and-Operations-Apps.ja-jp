@@ -1,19 +1,14 @@
 ---
 lab:
-  title: ラボ 2:Excel 統合
+  title: 'ラボ 2:Excel 統合'
   module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
-ms.openlocfilehash: 7388809d8222580e4c6ed9cc38c51800d56b1aa0
-ms.sourcegitcommit: 66b904b57adc52ee5c896858be0924d6778642a7
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "147448036"
 ---
+
 # <a name="module-1-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps"></a>モジュール 1:Dynamics 365 財務と運用アプリの主な機能を調べる
 
 ## <a name="objective"></a>目的
 
-このラボでは、Dynamics Office アドイン アプリを使用して財務と運用から Excel にデータをコピーする方法について説明します。 また、同じアプリを使用して財務と運用アプリにデータを挿入する方法についても説明します。
+In this lab, you will learn how to copy data from finance and operations to Excel using Dynamics office add-in app. You will also learn how the same app can be used to insert data into finance and operations apps.
 
 ## <a name="lab-steps"></a>ラボの手順
 
@@ -27,7 +22,7 @@ ms.locfileid: "147448036"
 
 4. **[ベンダー グループ]** (usmf) を選択し、Excel テンプレートをダウンロードします。
 
-5. ダウンロードした Excel テンプレートを保存してから開き、必要な場合は許可して、アクティブ化を閉じて、 **[編集を有効にする]** を選択します。 このアドインを信頼し、サインインします (求められた場合は、同じ資格情報を使用します)。
+5. Save and then open the downloaded Excel template, allow it if needed, close activation, and select <bpt id="p1">**</bpt>Enable editing<ept id="p1">**</ept>. Trust this add-in, and then sign in (using your same credentials, if asked).
 
     仕入先グループ テーブルのすべての既存のデータが Excel スプレッドシートに表示されます。
 

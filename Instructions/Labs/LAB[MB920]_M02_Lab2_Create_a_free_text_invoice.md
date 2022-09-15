@@ -1,14 +1,9 @@
 ---
 lab:
-  title: ラボ 2:自由書式の請求書の作成
+  title: 'ラボ 2:自由書式の請求書の作成'
   module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
-ms.openlocfilehash: 317a260d12d52af49eb38c731f6f10833a30583e
-ms.sourcegitcommit: 8e5a278c6e08abdcc3fb719796f79842e868606b
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116286"
 ---
+
 ## <a name="lab-2---create-a-free-text-invoice"></a>ラボ 2 - 自由書式の請求書の作成
 
 ## <a name="instructions"></a>Instructions
@@ -27,9 +22,9 @@ ms.locfileid: "147116286"
 
 税グループ フィールドと品目別税金グループ フィールドは、それぞれ CA と AU/VI で自動的に更新されるはずです。
 
-7. **数量** フィールドに「**10**」と入力します。
+7. **数量**フィールドに「**10**」と入力します。
 
-8. **単位** フィールドに「**1.2**」と入力します。
+8. **単位**フィールドに「**1.2**」と入力します。
 
 9. **[Accounting Action]\(会計アクション\)** メニューの **[配分の表示]** を選択します。 
 

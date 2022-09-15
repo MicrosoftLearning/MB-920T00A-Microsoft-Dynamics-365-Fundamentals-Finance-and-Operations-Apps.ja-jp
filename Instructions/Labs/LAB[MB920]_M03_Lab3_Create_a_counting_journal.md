@@ -1,23 +1,18 @@
 ---
 lab:
-  title: 課題 3:棚卸仕訳帳を作成する
+  title: '課題 3:棚卸仕訳帳を作成する'
   module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
-ms.openlocfilehash: 5e61646d33f284bb7e30b6f63a7db4778f58b47c
-ms.sourcegitcommit: 8e5a278c6e08abdcc3fb719796f79842e868606b
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116309"
 ---
+
 # <a name="module-3-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>モジュール 3:Microsoft Dynamics 365 Supply Chain Management の基礎を学ぶ
 
 ## <a name="lab-3---create-a-counting-journal"></a>ラボ 3 - 棚卸仕訳帳を作成する
 
-1. Finance and Operations ホーム ページの右上で、**USMF** 社の作業を行っていることを確認します。 必要な場合は、会社を選び、ドロップ ダウンから **USMF** を選択します。
+1. On the Finance and Operations home page, in the top right, verify you are working with the <bpt id="p1">**</bpt>USMF<ept id="p1">**</ept> company. If necessary, select the company, and from the drop down, select <bpt id="p1">**</bpt>USMF<ept id="p1">**</ept>.
 
 2. 左側のナビゲーション ペインで、 **[モジュール]**  >  **[在庫管理]**  >  **[仕訳入力]**  >  **[品目カウント]**  >  **[カウント]** の順に選択します。
 
-3. アクション ペインで、 **[+ 新規]** ボタンを選択します。 **[在庫仕訳帳の作成]** ダイアログ フォームが表示され、下部に **[OK]** ボタンがあります。 **[OK]** ボタンを選択します。
+3. Select the <bpt id="p1">**</bpt>+New<ept id="p1">**</ept> button in the action pane. The <bpt id="p1">**</bpt>Create inventory journal<ept id="p1">**</ept> dialog form will appear with the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button in the bottom. Select the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.
 
 4. ヘッダーと詳細情報を含む在庫棚卸仕訳帳フォームが表示されます
 
@@ -29,13 +24,13 @@ ms.locfileid: "147116309"
 
 ![説明に従ってフィールドが設定された [手持在庫棚卸仕訳帳の作成] ダイアログ ペインのスクリーンショット。](../media/lp-scm-m-002-warehouse-inventory-mgmt-07.png)
 
-7. **[Record to include]\(含めるレコード\)** セクションを展開し、 **[フィルター]** リンクを選択します。 **[品目番号]** フィールドで **A0001** を選択し、 **[OK]** を選択します。
+7. Expand the <bpt id="p1">**</bpt>Record to include<ept id="p1">**</ept> section and select the <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept> link. In the <bpt id="p1">**</bpt>Item number<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>A0001<ept id="p2">**</ept>, and then select <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.
 
 8. **[手持在庫棚卸仕訳帳の作成]** ダイアログ フォームの下部にある **[OK]** を選択します。
 
 品目 A0001 の手持数量は **[仕訳帳明細行]** セクションに表示され、サイト、倉庫、場所、ライセンス プレートで分割されます。
 
-9. **[仕訳帳明細行]** セクションの **[カウント済]** 列に、サイト、倉庫、場所、ライセンス プレートのそれぞれでカウントされる数字を入力します。 次のことを考慮してください。
+9. In the <bpt id="p1">**</bpt>Counted<ept id="p1">**</ept> column of the <bpt id="p2">**</bpt>Journal line<ept id="p2">**</ept> section, enter the numbers counted in each Site/Warehouse/Location/License plate. Note the following:
 
     - **[手持在庫]** 数量が **[カウント済]** 数量と同じ場合、 **[数量]** フィールドは空白になります。
 

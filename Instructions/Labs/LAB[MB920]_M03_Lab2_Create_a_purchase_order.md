@@ -1,21 +1,16 @@
 ---
 lab:
-  title: ラボ 2:発注書の作成
+  title: 'ラボ 2:発注書の作成'
   module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
-ms.openlocfilehash: 3fe707e54f1fe2e84b773f92ca75ba0e025e7f4e
-ms.sourcegitcommit: 8e5a278c6e08abdcc3fb719796f79842e868606b
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116293"
 ---
+
 # <a name="module-3-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>モジュール 3:Microsoft Dynamics 365 Supply Chain Management の基礎を学ぶ
 
 ## <a name="lab-2---create-a-purchase-order"></a>ラボ 2 - 発注書の作成
 
 ## <a name="objectives"></a>目標
 
-発注書がマスター プラン、直納,、その他のプロセスの結果として自動生成されるほうが通例です。 発注書は手動作成の場合通常歯購買担当者が行います。 USMF 会社を使用して発注書を作成します。
+It's more typical for purchase orders to be created automatically as result of master planning, direct delivery, and other processes. When created manually, a purchase order is usually created by a purchasing agent. Create a purchase order using the the USMF company.
 
 ## <a name="lab-setup"></a>ラボのセットアップ
 
@@ -35,25 +30,25 @@ ms.locfileid: "147116293"
 
 1. [発注書の作成] ペインで、**[仕入先勘定]** メニューを選択し、**[US-101]** を選択します。
 
-1. 仕入先を選択すると、住所、請求先/元 ID、配送条件、配送モードなどの仕入先レコードの詳細が、注文ヘッダーに既定値としてコピーされます。 これらの値はいつでも変更できます。
+1. When you select a vendor, details from the vendor record, such as address, invoice account, delivery terms, and delivery mode, will be copied as default values into the order header. You can change these values at any time.
 
 1. **[全般]** セクションを展開します。
 
 1. **[保管分析コード]** から **[サイト]** メニューを選択し、サイトの一覧を確認します。
 
-1. "サイト" フィールドと "倉庫" フィールドで、調達した商品またはサービスを配送する場所を指定します。 既定の配送先住所はサイトです。 どちらのフィールドも、選択した仕入先に対して設定された値を自動で入力させるか、手動で指定することができます。
+1. The Site field, together with the Warehouse field, specifies where the procured goods or services must be delivered. The default delivery address is the site. Both fields can be populated with values set up for the selected vendor, or you can specify them manually.
 
 1. **[日付]** から、"出荷日" フィールドを使用して、調達された商品やサービスを配送する日付を指定します。
 
-1. 注文に対して出荷日を 1 日だけ指定するか、注文明細行ごとに異なる出荷日を指定できます。 リード タイムが長いために、ここで指定した出荷日が特定の製品またはサービスに間に合わない場合、明細行は、これに対応するためにより遅い出荷日で作成されます。
+1. You can specify a single delivery date for the order, or the individual order lines can be given unique delivery dates. If the delivery date specified here cannot be met for specific products or services because they have longer lead times, then those lines will be created with a later delivery date to accommodate for this.
 
-1. **[管理]** セクションを展開します。 **[注文者]** ボックスを使用して、注文を行うユーザーを指定できます。
+1. Expand the <bpt id="p1">**</bpt>Administration<ept id="p1">**</ept> section. The <bpt id="p1">**</bpt>Orderer<ept id="p1">**</ept> box can be used to specify who is placing the order.
 
-1. 担当者に連絡する必要がある場合は、仕入先と共有すると便利です。 現在のユーザー アカウントがユーザー ページの名前に関連付けられている場合、この値は自動的に割り当てることができます。
+1. 発注書がマスター プラン、直納,、その他のプロセスの結果として自動生成されるほうが通例です。
 
 1. **[OK]** を選択します。
 
-1. 注文ヘッダーが作成されました。 発注書明細行を使用すると、ヘッダー情報の概要だけが表示されます。 その他の情報を表示する必要がある場合は、**ヘッダー** を選択します。
+1. 発注書は手動作成の場合通常歯購買担当者が行います。
 
     ![ヘッダー メニューの場所を表示する画面イメージ](./media/lp1-m3-purchase-order-header-option.png)
 
@@ -63,7 +58,7 @@ ms.locfileid: "147116293"
 
 1. **[ディスプレイ]** の下の **[分析コード]** を選択します。
 
-1. 製品には、色、サイズ、スタイルなど、分析コード別に区別されるバリアントがあります。 製品は、サイトや倉庫などの保管分析コードを使用するように設定することもできます。 オプションでバッチ番号やシリアル番号などの追跡用分析コードもあります。 注文入力の効率を高めるには、通常使用する分析コード フィールドを注文グリッドに直接追加します。
+1. USMF 会社を使用して発注書を作成します。
 
 1. **[製品分析コード]** の [分析コード表示] ペインで、**[色]** チェック ボックスをオンにします。
 
@@ -77,7 +72,7 @@ ms.locfileid: "147116293"
 
 1. 製品およびサービスの注文明細行は、調達カテゴリを指定して品目番号または経費として指定することで作成されます。
 
-1. 調達された品目が在庫に入るのではなく直接経費になる明細行を追加するには、調達カテゴリを使用します。 つまり、購買を経費として処理する必要がある場合は、品目番号を含む行を作成するのではなく、調達カテゴリを指定する発注書明細行を作成します。 品目が調達カテゴリに関連付けられている場合も、この場合、調達カテゴリは情報提供のためのみに表示されます。
+1. Procurement category is used for adding lines where procured items are expensed directly, rather than going into inventory. This means that if you need to expense a purchase, you can do this by creating a purchase order line that specifies a procurement category, rather than creating a line with an item number. Items can also be associated with a procurement category and in this case, the procurement category is shown as informational only.
 
 1. **[色]** メニューを選択、使用できるオプションを確認し、色または色の組み合わせを 1 つ選択します。
 
@@ -89,21 +84,21 @@ ms.locfileid: "147116293"
 
 1. 追加情報:
 
-    - **単位**:注文済数量の測定単位を示します。 通常、この単位は、製品マスター データの購買単位から自動的に提供されます。
+    - <bpt id="p1">**</bpt>Unit<ept id="p1">**</ept>: Indicates the unit of measure for the ordered quantity. Normally, the unit is automatically provided from the purchasing unit on the product master data.
 
-    - **[単価]**: 購買契約書か売買契約書いずれかの値で構成されます。 仕入先との間で独自価格での交渉がなされた場合などに、注文明細行ごとに単価を変更できます。
+    - <bpt id="p1">**</bpt>Unit price<ept id="p1">**</ept>: Contains a value from either a purchase agreement or a trade agreement. It is possible to change the unit price on individual order lines—for example, if a unique price is negotiated with the vendor.
 
-    - **[割引]**: 単位あたりの割引金額を表します。 この割引は単価から減額します。 通常、この割引は購買契約書または売買契約書から自動的に提供されますが、仕入先と独自の割引を交渉した場合は、個々の明細行を上書きすることができます。
+    - <bpt id="p1">**</bpt>Discount<ept id="p1">**</ept>: Represents a discount amount per unit. This discount therefore reduces the unit price by the discount. This discount is commonly supplied automatically from purchase agreements or trade agreements, but it is possible to override on individual lines if unique discounts have been negotiated with the vendor.
 
-    - **[割引率]**: 入力すると、その明細行の正味金額から減額されます。 通常、この割引は購買契約書または売買契約書から自動的に提供されますが、独自の割引が仕入先と交渉された場合は、個々の明細行を上書きすることができます。
+    - <bpt id="p1">**</bpt>Discount percentage<ept id="p1">**</ept>: When entered, this reduces the net amount for the line accordingly. The discount percent is often supplied automatically from purchase agreements or trade agreements, but it is possible to override on individual lines if a unique discount percentage has been negotiated with the vendor.
 
-    - **[正味金額]**: "数量"、"単価"、"割引額"、"割引率" などの、明細行の他のフィールドから計算されます。 正味金額は変更できますが、"単価"、"割引額"、および "割引率" の各フィールドは空白になります。また、明細行に転記すると、転記された金額は正味金額に比例します。 通常、"正味金額" フィールドは、明細行の正味金額の表示にのみ使用されます。
+    - <bpt id="p1">**</bpt>Net amount<ept id="p1">**</ept>: Calculated from other fields on the line, including quantity, unit price, discount, and discount percent. It is possible to change the Net amount, but then the Unit Price, Discount, and Discount percent fields will be blank, and when you post toward the line, the amount posted will be proportional to the net amount. Generally, the Net Amount field is only used for displaying the net amount of the line.
 
 1. ページの下部にある発注書明細行で、**[明細行の詳細]** を選択します。
 
 1. **[配送]** タブを選択します。
 
-1. 注文行ごとにそれぞれ異なる出荷日を割り当てることができます。 この日付は発注書ヘッダーのフィールドから継承されますが、変更できます。
+1. A unique delivery date can be assigned to each order line. The date is inherited from the field on the purchase order header, but you can change this.
 
 1. [発注書明細行] ページを閉じます。
 

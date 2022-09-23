@@ -1,1 +1,1 @@
-Supporting image files markdown docs in Instructions/Demos
+「手順/デモ」でのイメージ ファイル マークダウン ドキュメントのサポート

@@ -8,7 +8,7 @@ lab:
 
 ## <a name="objective"></a>目的
 
-In this lab, you will learn how to copy data from finance and operations to Excel using Dynamics office add-in app. You will also learn how the same app can be used to insert data into finance and operations apps.
+このラボでは、Dynamics Office アドイン アプリを使用して財務と運用から Excel にデータをコピーする方法について説明します。 また、同じアプリを使用して財務と運用アプリにデータを挿入する方法についても説明します。
 
 ## <a name="lab-steps"></a>ラボの手順
 
@@ -22,7 +22,7 @@ In this lab, you will learn how to copy data from finance and operations to Exce
 
 4. **[ベンダー グループ]** (usmf) を選択し、Excel テンプレートをダウンロードします。
 
-5. Save and then open the downloaded Excel template, allow it if needed, close activation, and select <bpt id="p1">**</bpt>Enable editing<ept id="p1">**</ept>. Trust this add-in, and then sign in (using your same credentials, if asked).
+5. ダウンロードした Excel テンプレートを保存してから開き、必要な場合は許可して、アクティブ化を閉じて、 **[編集を有効にする]** を選択します。 このアドインを信頼し、サインインします (求められた場合は、同じ資格情報を使用します)。
 
     仕入先グループ テーブルのすべての既存のデータが Excel スプレッドシートに表示されます。
 

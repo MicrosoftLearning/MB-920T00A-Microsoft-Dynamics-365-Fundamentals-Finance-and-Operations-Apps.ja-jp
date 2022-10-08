@@ -7,10 +7,10 @@ demo:
 ## <a name="demo-2---create-an-invoice"></a>デモ 2 - 請求書の作成
 
 1.  **[プロジェクト管理]** ワークスペースに移動します。  
-    In this demo, we'll go over the process of invoicing a single project within project operations. Although it's possible to perform mass invoicing, for demonstration purposes we will focus on just a single time and material project. We'll also see the posting results and financial insights within the project statement. Let's start with project invoicing. 
+    このデモではプロジェクト運営の範囲内での単一プロジェクトについて請求書を発行するプロセスを学習します。 請求書の多数一括発行も可能ですが、デモの目的のためここでは一回のみの材料プロジェクトを取り上げます。そのプロジェクトの明細書の範囲で項目の結果と財務的把握も可能になります。 最初にプロジェクトの請求書発行について説明します。 
 
-1. In the top-right company picker, verify the legal entity you are connected to is<bpt id="p1"> **</bpt>USSI<ept id="p1">**</ept>. If it's not, change the legal entity to<bpt id="p1"> **</bpt>USSI<ept id="p1">**</ept>.  
-    From the<bpt id="p1"> **</bpt>Project management<ept id="p1">**</ept> workspace, we can see all the active projects. We can search for projects using the filter, or in this example, we will select a known Project ID. 
+1. 右上の会社情報欄で接続先法人が **USSI** であることを確認してください。 別の法人が表示されている場合は、 **USSI** に変更してください。  
+     **[プロジェクト管理]** ワークスペースから、すべてのアクティブなプロジェクトを確認できます。フィルターを使って、ここの例では既知のプロジェクト ID でプロジェクトを検索します。 
 
 1.  **[アクティブなプロジェクト]**  テーブルの **[プロジェクト ID]**  列で、 **[00000093 Contoso Consulting]** を選択してください。  
 
@@ -24,7 +24,7 @@ demo:
     ![[プロジェクト仮発行請求書] ページで新規仮発行請求書が強調表示されているスクリーンショット。](./media/projops_invoice_1_new_invoice_proposal.png)
 
 1.  **[仮発行請求書作成]**  ペインで **[トランザクション選択]** の下のボックスをポイントします。  
-    From here, we can select things such as the invoicing method, the invoice date, the funding source, and the project. We can also choose to include sub projects, as well as incorporate transaction types, the start and end dates for transactions, and any financial dimensions we need. 
+    ここから請求方法、請求日、資金調達先、プロジェクト等の事項を選択します。サブプロジェクトを含めることも選択できます。また、トランザクションタイプ、トランザクションの開始日と終了日、および必要な財務分析コードも含められます。 
 
     ![[仮発行請求書作成] ペインの [トランザクション] セクションが強調表示されているスクリーンショット。](./media/projops_invoice_2_select_transactions.png)
 
@@ -34,7 +34,7 @@ demo:
     選択したら、次に検索ボタンでこれらのパラメータに合致するトランザクションを選択します。
 
 1.  **[検索]** を選択します。  
-    このデモではプロジェクト運営の範囲内での単一プロジェクトについて請求書を発行するプロセスを学習します。
+    次は全トランザクションの請求を立てるので、[全選択] を選択します。 これで経費と時間数について選んだ項目が選択されます。
 
 1.  **[プロジェクト トランザクション]**  タブで **[すべて選択]** を選択します。
 
@@ -57,7 +57,7 @@ demo:
     合計画面にその影響が総勘定元帳にどう反映されるかを確認したり、与信限度額や割引、消費税、請求書による正味の影響などの顧客情報も確認できます。 
 
 1. 画面右上で、 **[X]**  を選択してページを閉じます。  
-    請求書の多数一括発行も可能ですが、デモの目的のためここでは一回のみの材料プロジェクトを取り上げます。 
+    以上ですべての請求情報が正しいことを確認するための印刷プレビューを作成する準備ができました。 組織によってはプロジェクト見直し会議でプレビューを使って皆が合計に同意してから請求書を確定するところもあります。 
 
 1.  **[仮発行請求書]**  ページのナビゲーション バーで、 **[印刷プレビュー]** を選択します。 
 
@@ -90,7 +90,7 @@ demo:
 1.  **[請求書仕訳帳]**  ページのアクション バーで **[伝票]** を選択します。
 
 1.  **[伝票トランザクション]**  ページで **[勘定科目]** 列をポイントします。  
-    そのプロジェクトの明細書の範囲で項目の結果と財務的把握も可能になります。
+    ここに総勘定元帳に計上された結果が表示されます。 総勘定元帳の科目は科目設定と各プロジェクトに適用された財務分析コードによってで決定されるものです。
 
 1.  **[プロジェクト管理]**  ワークスペースに移動します。 
 
@@ -114,4 +114,4 @@ demo:
     ![[プロジェクト明細書] ページの計算オプションが強調表示されているスクリーンショット。](./media/projops_invoice_4_calculate.png)
 
 1.  **[トランザクション]** をポイントします。  
-    最初にプロジェクトの請求書発行について説明します。
+    データが更新されたら、プロジェクト マネージャーはさらにトランザクションの明細にドリルダウンして、プロジェクトを決定するか必要なら調整を行えます。このデモで時間と実費払い請求書を時間数と経費トランザクションの両者を使って処理しました。 その内容をプレビューで確認し、請求書を発行し、元帳の計上内容を確認し、最後にこのプロジェクト明細書による財務的影響を評価しました。

@@ -28,7 +28,7 @@ lab:
 
 1. **[有効日]** ボックスを選択し、将来の日付を選択します。
 
-1. In the <bpt id="p1">**</bpt>Assortment name<ept id="p1">**</ept> box, enter a name for the new assortment. For example, <bpt id="p1">**</bpt>New Spring Season<ept id="p1">**</ept>.
+1. **[品揃え名]** ボックスに、新しい品揃えの名前を入力します。 「**新春の季節**」などです。
 
 1. **[有効期限]** を **[なし]** に設定します。
 
@@ -55,7 +55,7 @@ lab:
 
 1. これにより、親カテゴリのすべての子品目が追加されます。
 
-1. Review the last column named <bpt id="p1">**</bpt>Line type<ept id="p1">**</ept>. By default, all items will be included.
+1. **[行タイプ]** という名前の最後の列を確認します。 既定ではすべての品目が含まれます。
 
 1. **[+ 行追加]** を選択し、**[カテゴリ]** メニューを選択して、**[チーム スポーツ (チーム スポーツ)]** を展開します。**[野球]** を選択し、**[OK]** を選択します。
 
@@ -63,7 +63,7 @@ lab:
 
 1. 「野球 カテゴリ行を使用して、**製品** メニューを選択します。
 
-1. When products within a category are defined, you can select a specific product to include or exclude. Select <bpt id="p1">**</bpt>AdultBaseballInfield<ept id="p1">**</ept>.
+1. カテゴリ内の製品が定義されている場合は、含める、または除外する特定の製品を選択できます。 **[AdultBaseballInfield]** を選択します。
 
 1. 追加した製品を削除するには、製品ボックスの内容を削除してから、キーボードの Tab キーを押すか、ページの別の領域を選択します。
 

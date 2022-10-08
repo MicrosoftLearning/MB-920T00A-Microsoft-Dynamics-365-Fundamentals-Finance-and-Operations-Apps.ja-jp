@@ -6,7 +6,7 @@ demo:
 
 ## <a name="demo-3---explore-project-costs"></a>デモ 3 - プロジェクト原価を確認する
 
-In this demo, we will walk through the creation of a time and expense entry that will be charged to the Contoso Consulting project. We'll explore the entries in formats optimized for web and mobile presentation, and we'll see how a workflow is used to manage the approval process.
+このデモではContoso Consulting プロジェクトに課金する予定の時間と経費の作成をご説明します。 Web およびモバイル表現用に最適な形式のエントリーをホロ下げ、承認プロセスの管理のためのワークフローの使い方について見ていきましょう。
 
 1. 
              **「Dynamics 365 for Finance and Operations」** のナビゲーション ペインで、**「モジュール」 > 「プロジェクト管理と会計」 > 「タイムシート」 > 「マイ タイムシート (モバイル用最適化済み)」** を選択します。  
@@ -16,7 +16,7 @@ In this demo, we will walk through the creation of a time and expense entry that
 
     この最適化は Microsoft のビジネス アプリケーションの主な差別化点であり、web とモバイル用途の間で習得すべき項目がそう違わないようにしています。
 
-1. In the top right company picker, verify the legal entity you are connecting to is <bpt id="p1">**</bpt>USSI<ept id="p1">**</ept>. If it's not, change the legal entity to <bpt id="p1">**</bpt>USSI<ept id="p1">**</ept>.
+1. 右上の会社情報欄で接続先法人が **USSI** であることを確認してください。 そうでない場合は、法人を **USSI** に変更してください。
 
 1. **[マイ タイムシート]** ページで **[新規]** を選択します。  
     次に、構成済み設定に基づく新規タイムシートを作成しましょう。
@@ -32,7 +32,7 @@ In this demo, we will walk through the creation of a time and expense entry that
 1. **[マイ タイムシートの詳細]** ページで **[新規 +]** アイコンを選択します。
 
 1. **[新しいタイムシートの明細行]** ペインで **[法人]** ボックスをポイントします。  
-    The new timesheet line will be opened, with details such as the customer, the project, the category, the line properties, and tax parameters. You can also select a different legal entity if the time entry is on behalf of another company within your organization.
+    新規タイムシート明細行が開き、ここに顧客、プロジェクト、カテゴリ、プロパティ、税パラメーター等の詳細が記載されています。 時間エントリーが組織の他会社のためであれば他の法人を選択することもできます。
 
 1. **[プロジェクト ID]** メニューを選択します。
 
@@ -46,10 +46,10 @@ In this demo, we will walk through the creation of a time and expense entry that
 
     ![[時間入力] ページのスクリーンショット。](./media/projops_costs_2_mon_box.png)
 
-1. このデモではContoso Consulting プロジェクトに課金する予定の時間と経費の作成をご説明します。  
+1. **[内部コメント]** ボックスにコメントを追加します。 次に例を示します。 **「新しいバイクについて話し掛けようと思う**。  
     プロジェクト反対の内部および外部コメントも入力して、全当事者が記録されている時間数の性質を把握できるようにします。
 
-1. Web およびモバイル表現用に最適な形式のエントリーをホロ下げ、承認プロセスの管理のためのワークフローの使い方について見ていきましょう。
+1. **[外部コメント]** ボックスにコメントを加えます。 たとえば、**"チェーンを調節してフリートの前輪を揃える"** のようなものです。
 
 1. ナビゲーション バーで **[保存]** を選択します。
 
@@ -58,13 +58,13 @@ In this demo, we will walk through the creation of a time and expense entry that
 1. **[マイ タイムシート]** ページで、以前作成した時間入力を選択します。
 
 1. **[タイムシート]** タブの [カテゴリ] をポイントします。  
-    Now assume we've returned to a computer and are reviewing our time from within the web timesheet form. We can still see the same information, such as the category and the hours.
+    次に、コンピュータへ戻り、 Web タイムシート フォームから時間を確認しているとします。 まだカテゴリや時間数等同じ情報が見えます。
 
 1. **[明細行の詳細]** で **[内部コメント]** と **[外部コメント]** をポイントします。  
-    We can also review the comments we entered earlier. The information is there, but the layout format is just a bit different. This format is often used for final review because it can be easier for people to review and validate their time, especially when someone is assigned to multiple projects or categories.
+    以前入力したコメントも見直すことができます。 情報はそこにありますが、レイアウト形式が少々違います。 このフォーマットは誰かが複数のプロジェクトやカテゴリに割り当てられているとき等、特に時間を見直して確認しやすくなるため最終確認によく使います。
 
 1. ナビゲーション バーで **[ワークフロー]** タブを選択します。  
-    If we're satisfied with the timesheet, we can submit it. The approvals required will be determined by each organization during the implementation phase based on their own company policies.
+    タイムシートに納得できたら送信できます。 必要な承認は会社の方針別に基づいて実装段階に組織別に決定されます。
 
 1. **[タイムシート ワークフローの確認]** ペインで **[送信]** を選択します。
 
@@ -72,10 +72,10 @@ In this demo, we will walk through the creation of a time and expense entry that
 
 1. **[Submit](送信)** をクリックします。
 
-1. Browse to the <bpt id="p1">**</bpt>Hour transactions<ept id="p1">**</ept> page. If the <bpt id="p1">**</bpt>Hour transactions<ept id="p1">**</ept> tab is grayed out, browse to the <bpt id="p2">**</bpt>My timesheets page<ept id="p2">**</ept>, and select the previously created timesheet.
+1. **[時間トランザクション]** ページを開きます。 **[時間トランザクション]** タブがグレー表示されている場合は、**[マイ タイムシート] ページ** に移動して、以前に作成したタイムシートを選択します。
 
 1. **[時間トランザクション]** ページでページを確認します。  
-    Upon approval, the results will be posted and will be visible in the Hour transactions page. We can see all the relevant information, such as the legal entity, project, category, hours, and in this case, even a view of the cost price and the sales price.  
+    承認されたら、結果が投稿され、[時間トランザクション] ページに表示されます。 法人、プロジェクト、カテゴリ、時間数等の関連情報、さらに、この場合には原価価格と販売価格のビューさえ見えます。  
 
 次に、伝票トランザクションへドリルダウンすることもできます。
 
@@ -90,7 +90,7 @@ In this demo, we will walk through the creation of a time and expense entry that
 
 1. **[経費管理]** ページの **[レポート]** タブで、**[+ 新しい経費レポート]** を選択します。
 
-1. 右上の会社情報欄で接続先法人が **USSI** であることを確認してください。
+1. **[新しい経費レポート]** ペインの **[目的] ボックス**にタイトルを入力します。 たとえば、「**Contoso – Feb2021**」などです。
 
 1. **[OK]** を選択します。
 
@@ -104,7 +104,7 @@ In this demo, we will walk through the creation of a time and expense entry that
 
 1. **[通貨]** 列で、**[JPY]** を選択します。
 
-1. そうでない場合は、法人を **USSI** に変更してください。  
+1. **[トランザクション日付]** 列で日付を選択します。 たとえば、**2021/2/1** などとします。  
     詳細を記入し終えたら、経費を保存します。
 
 1. **[保存]** を選択します。
@@ -128,6 +128,6 @@ In this demo, we will walk through the creation of a time and expense entry that
 1. **[Submit](送信)** をクリックします。
 
 1. **[経費管理]** ページで、**[承認の状態]** 列をポイントします。  
-    At this time, travel policies and expense approval flow will be activated. The costs have been posted and applied to the Contoso Consulting project and will be available later for invoicing if chargeable.
+    この時点で、出張方針と経費承認のフローが有効になります。 原価が計上されて Contoso Consulting プロジェクトに適用され、課金可能であれば後日請求書に含めます。
 
-In this demo, we have processed a time and expense entry that was charged to the Contoso Consulting project. We saw samples in web and mobile formats and were able to see how workflows are used to manage the approvals required by the USSI organization.
+このデモで Contoso Consulting プロジェクトに課金された時間と経費のエントリーを処理しました。 事例を Web とモバイルの両方のフォーマットで見たほか、 USSI が必要としている承認の管理のためのワークフローの使い方も把握しました。

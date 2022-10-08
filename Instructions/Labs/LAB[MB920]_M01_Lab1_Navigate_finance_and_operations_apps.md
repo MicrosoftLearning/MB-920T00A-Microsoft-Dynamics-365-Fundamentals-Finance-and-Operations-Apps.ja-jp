@@ -1,14 +1,9 @@
 ---
 lab:
-  title: ラボ 1:Finance and Operations アプリでのナビゲーション
+  title: 'ラボ 1:Finance and Operations アプリでのナビゲーション'
   module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
-ms.openlocfilehash: f1d534e6d6d960be8f6672048f83a20a491264cc
-ms.sourcegitcommit: 8e5a278c6e08abdcc3fb719796f79842e868606b
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116216"
 ---
+
 # <a name="module-1-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps"></a>モジュール 1:Dynamics 365 財務と運用アプリの主な機能を調べる
 
 ## <a name="lab-1---navigate-finance-and-operations-apps"></a>ラボ 1 - Finance and Operations アプリでのナビゲーション

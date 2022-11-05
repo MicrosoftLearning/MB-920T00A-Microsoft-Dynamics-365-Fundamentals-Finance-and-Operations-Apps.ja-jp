@@ -34,7 +34,7 @@ Finance and Operations アプリに馴れたところでインターフェイス
 
         pass@word1
 
-    >[!Note] Internet Explorer がデスクトップに自動的に開くことがあります。 #2-5 の手順をまだ終えていなければ、まず終えてから Internet Explorer へ戻ってください。
+    >[!Note] Microsoft Edge がデスクトップに自動的に開くことがあります。 ステップ #2 から #5 をまだ終えていない場合は、終えてから Microsoft Edge に戻ってください。
 
 1. デスクトップにある **[AdminUserProvisioning]** ファイルを選択します。
 
@@ -45,7 +45,7 @@ Finance and Operations アプリに馴れたところでインターフェイス
 
 1. **[OK]** を選択して続行します。
 
-1. **Internet Explorer** を開きます。
+1. **Microsoft Edge** を開きます。
 
 1. <https://usnconeboxax1aos.cloud.onebox.dynamics.com> のリンク先を開きます。
 

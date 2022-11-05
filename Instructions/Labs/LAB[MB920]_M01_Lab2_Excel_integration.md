@@ -6,6 +6,8 @@ lab:
 
 # <a name="module-1-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps"></a>モジュール 1:Dynamics 365 財務と運用アプリの主な機能を調べる
 
+## <a name="lab-2---excel-integration"></a>ラボ 2 - Excel 統合
+
 ## <a name="objective"></a>目的
 
 このラボでは、Dynamics Office アドイン アプリを使用して財務と運用から Excel にデータをコピーする方法について説明します。 また、同じアプリを使用して財務と運用アプリにデータを挿入する方法についても説明します。
@@ -28,7 +30,7 @@ lab:
 
 6.  新しいレコードを入力します。
 
-7. **[仕入先グループ]** フィールドに「**100**」、 **[説明]** フィールドに「**Insurance Vendor**」、 **[支払条件]** フィールドに「**Net10**」と入力します。
+7. **[仕入先グループ]** フィールドに「**100**」、 **[説明]** フィールドに「**Insurance vendor**」、 **[支払条件]** フィールドに「**Net10**」と入力します。
 
 8. Microsoft Dynamics Office アドイン アプリの **[発行]** ボタンを選択します。
 

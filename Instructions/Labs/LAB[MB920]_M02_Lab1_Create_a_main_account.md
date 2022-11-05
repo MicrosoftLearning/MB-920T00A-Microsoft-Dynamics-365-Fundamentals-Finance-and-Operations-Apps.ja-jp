@@ -31,3 +31,5 @@ lab:
     - 借方/貸方の既定値:**Debit**
 
  ![主勘定 - 勘定科目表のスクリーンショット。手順 5 のフィールドが入力された共有ページ](./media/m-002-explore-general-ledgers-in-microsoft-dynamics-365-finance-03.png)
+
+6. **[保存]** をクリックします。

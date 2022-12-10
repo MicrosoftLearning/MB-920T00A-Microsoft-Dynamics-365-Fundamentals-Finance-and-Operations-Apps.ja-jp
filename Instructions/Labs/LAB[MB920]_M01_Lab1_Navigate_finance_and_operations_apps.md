@@ -34,29 +34,18 @@ Finance and Operations アプリに馴れたところでインターフェイス
 
         pass@word1
 
-    >[!Note] Microsoft Edge がデスクトップに自動的に開くことがあります。 ステップ #2 から #5 をまだ終えていない場合は、終えてから Microsoft Edge に戻ってください。
+1. 次へ進む前に、AdminUserProvisioning スクリプトが完了するのを待ちます。 2 ～ 3 分かかる場合があります。 スクリプトが完了すると、管理者ユーザーの更新完了を確認するポップアップボックスが簡単に表示されます。
 
-1. デスクトップにある **[AdminUserProvisioning]** ファイルを選択します。
+1. **Microsoft Edge** によって、Finance & Operations URL が開きます: <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
 
-1. 提供された資格情報を入力して **[送信]** を選択します。  
-資格情報は画面右上にある **[リソース]** メニューで見つかります。
-
-1. 次へ進む前に、スクリプトが完了するのを待ちます。 2 ～ 3 分かかる場合があります。 スクリプトが完了すると、管理者ユーザーの更新完了を確認するポップアップボックスが出ます。
-
-1. **[OK]** を選択して続行します。
-
-1. **Microsoft Edge** を開きます。
-
-1. <https://usnconeboxax1aos.cloud.onebox.dynamics.com> のリンク先を開きます。
-
-1. **[リソース]** メニューに示された資格情報でサインインします。
+1. **[リソース]** メニューの [ユーザー名] と [パスワード] を使用してサインインします。
 
 ### <a name="navigate-finance-and-operations-apps"></a>Finance and Operations アプリでのナビゲーション
-1. Finance and Operations の [ホーム] ページに構成されている場合は次の情報が表示されます。
+1. Finance and Operations ホーム ページに次の情報が表示されます。
 
     - 既定で折りたたまれている、左側のナビゲーション メニュー。
 
-    - 会社のロゴ。
+    - 会社のバナー画像。
 
     - 組織における役割に基づいて利用できるワークスペース タイル。
 
@@ -119,10 +108,14 @@ Finance and Operations アプリに馴れたところでインターフェイス
 
 1. 右上の追加機能に注目してください。 各項目にマウスを移動し、機能の呼び出しを確認します。 完了したら、**[閉じる]** アイコンを選択してページを閉じ、[ホーム] ページに戻ります。
 
-    ![Power アプリ、Office アプリへの接続、[更新] ページ、[新しいウィンドウで開く]、[閉じる] ボタンの追加機能を示すリスト ページの右上メニュー](./media/m1-common-list-page-additional-features-menu.png)
+    ![Power Apps、Office アプリへの接続、添付ファイル、[更新]、[新しいウィンドウで開く]、[閉じる] ボタンの追加機能を示すリスト ページの右上メニュー](./media/m1-common-list-page-additional-features-menu.png)
 
 1. 右上にある **ヘルプ** (疑問符) アイコンを選択し、**ヘルプ** を選択します。
 
 1. ヘルプ情報が現在のページに関連していることを確認します。
 
-1. ワークスペース タイルを選択した後、そのワークスペースのヘルプ情報を確認してみてください。 完了したら、[ホーム] ページに戻ります。
+1. 左上の [Finance and Operations] リンクまたは左側のナビゲーション メニューの [ホーム] アイコンを使用して、**既定のダッシュボード**に戻ります。
+
+>[!Note] キーボード ショートカット: Alt + Shift + Home、Finance and Operations では、システムへのアクセスを高速化するための多くのキーボード ショートカットがサポートされています: https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/shortcut-keys
+
+1. 別の**ワークスペース タイル**を選択した後、そのワークスペースのヘルプ情報を確認してみてください。 完了したら、既定のダッシュボードに戻ります。

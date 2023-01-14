@@ -24,7 +24,7 @@ lab:
 
     - 名前: **International call expense**
 
-    - 主な経費の種類: **[Expense]**
+    - 主勘定タイプ: **Expense**
 
     - 主勘定カテゴリ:**TANDEEXP**
 

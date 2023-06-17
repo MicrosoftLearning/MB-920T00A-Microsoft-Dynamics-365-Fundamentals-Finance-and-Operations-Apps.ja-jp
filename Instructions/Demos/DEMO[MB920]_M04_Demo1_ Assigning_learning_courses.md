@@ -4,7 +4,7 @@ demo:
   module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Human Resources'
 ---
 
-## <a name="demo-1---assigning-learning-courses"></a>デモ 1 - 学習コースの割り当て
+## デモ 1 - 学習コースの割り当て
 
 1. **Microsoft Dynamics 365 Human Resources** のホーム ページに移動します。  
     Microsoft Dynamics 365 Human Resource で人事管理は従業員にトレーニング コースを割り当てられます。 この例で、新採用者 Alicia に入社初期 3 日以内に従業員が利用可能なトレーニングを割り当てる必要があります。

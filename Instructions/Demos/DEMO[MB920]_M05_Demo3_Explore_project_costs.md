@@ -4,7 +4,7 @@ demo:
   module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
 ---
 
-## <a name="demo-3---explore-project-costs"></a>デモ 3 - プロジェクト原価を確認する
+## デモ 3 - プロジェクト原価を確認する
 
 このデモではContoso Consulting プロジェクトに課金する予定の時間と経費の作成をご説明します。 Web およびモバイル表現用に最適な形式のエントリーをホロ下げ、承認プロセスの管理のためのワークフローの使い方について見ていきましょう。
 

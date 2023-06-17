@@ -4,7 +4,7 @@ demo:
   module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
 ---
 
-## <a name="demo-1---project-operations-pricing"></a>デモ 1 - Project Operations の価格設定
+## デモ 1 - Project Operations の価格設定
 
 1. **[プロジェクト管理]** ワークスペースに移動します。  
     このデモではプロジェクト運営の範囲での売上高とコストの価格を設定します。 さらに、発行済みの請求書を基にコストと価格がどのように算出されるかについて学習します。

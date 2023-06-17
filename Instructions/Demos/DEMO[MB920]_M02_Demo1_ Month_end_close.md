@@ -4,7 +4,7 @@ demo:
   module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
 ---
 
-## <a name="demo-1---month-end-close"></a>デモ 1 - 月末決算
+## デモ 1 - 月末決算
 
 1. **Microsoft 365 for Finance and Operations** のホームページに移動します。  
     Microsoft Dynamics 365 for Finance and Operations で、月末締めなど、新しい財務期間終了を作成するには、最初に **[総勘定元帳]** モジュールを開きます。

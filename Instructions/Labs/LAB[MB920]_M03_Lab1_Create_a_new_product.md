@@ -10,7 +10,7 @@ lab:
 
 ## 目的
 
-Contoso Entertainment System USA (USMF) では、ベンダーから新しい構成のキャビネットを購入する予定です。 新しい構成を表す項目を作成する必要があります。 このラボでは、新しい品目と品目の構成を作成する方法について学習します。
+Contoso Entertainment System USA (USMF) で、仕入先から新しい構成のキャビネットの購入を計画しています。 新しい構成を表す品目を作成する必要があります。 このラボでは、新しい品目と品目の構成を作成する方法について学習します。
 
 ## ラボのセットアップ
 
@@ -18,7 +18,7 @@ Contoso Entertainment System USA (USMF) では、ベンダーから新しい構�
 
 ## Instructions
 
-Contoso Entertainment System USA (USMF) では、ベンダーから新しい構成のキャビネットを購入する予定です。 新しい構成を表す項目を作成する必要があります。
+Contoso Entertainment System USA (USMF) では、ベンダーから新しい構成のキャビネットを購入する予定です。 新しい構成を表す品目を作成する必要があります。
 
 1.  Finance and Operations のホーム ページの右上で、**USMF** 社の作業を行っていることを確認します。 必要であれば、会社のドロップ ダウンで **[USMF]** を選択します。
 
@@ -36,13 +36,13 @@ Contoso Entertainment System USA (USMF) では、ベンダーから新しい構�
 
 8.  **製品名** ボックスに**キャビネット 2** と入力します。
 
-    ![スクリーンショットは、新製品の作成ページの標準ビューを示しています。](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-07.png)
+    ![スクリーンショットは、新しい製品作成ページの標準ビューを表します。](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-07.png)
 
 9.  **[OK]** ボタンを選択します。
 
 10. 操作ウィンドウの **[製品]** メニューの **[セットアップ]** グループで、 **[分析コード グループ]** を選択します。
 
-    ![スクリーンショットは、分析コード グループのさまざまな詳細を追加できる製品メニューの設定オプションを示しています。](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-08.png)
+    ![スクリーンショットは、さまざまな分析コード グループの詳細を追加できる製品メニューの設定オプションを表します。](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-08.png)
 
 11. **[保管分析コード グループ]** ドロップダウンを選択し、 **[SiteWH]** を選択します。
 
@@ -54,7 +54,7 @@ Contoso Entertainment System USA (USMF) では、ベンダーから新しい構�
 
 15. ページが開き、最初の手順である **[リリースする製品の選択]** が表示されます。
 
-    ![スクリーンショットは、[製品のリリース] ページの標準ビューを示しています。](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-09.png)
+    ![スクリーンショットは、[製品のリリース] ページの標準ビューを表します。](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-09.png)
 
 16. ページの下部で **[次へ]** ボタンを選択します
 
@@ -66,9 +66,9 @@ Contoso Entertainment System USA (USMF) では、ベンダーから新しい構�
 
 20. ページの下部で **[完了]** ボタンを選択します。
 
-21. ナビゲーション ウィンドウで [モジュール] を選択し、[製品情報管理] を選択します。 次に、製品メニューで、 **[リリース済]** 製品を選択します。
+21. ナビゲーション ウィンドウで、モジュールを選択してから、製品情報管理を選択します。 次に、製品メニューで、 **[リリース済]** 製品を選択します。
 
-22. **[** 製品の**リリース]** ページのグリッド内で、新しい品目である **GTL007** を特定します。 
+22. **[リリース済****製品]** ページのグリッドで、新しい品目 **GTL007** を特定します。 
 
 23. 製品リンクを選択し、 **[製品の詳細]** ページに移動します。
 
@@ -104,7 +104,7 @@ Contoso Entertainment System USA (USMF) では、ベンダーから新しい構�
 
     - **品目グループ**: オーディオ
 
-30. 構成を完了するには、操作ウィンドウで [製品] を選択します。 [管理] グループで [検証] ボタンを選択します
+30. 構成を完了するには、[アクション] ペインで [製品] を選択します。 [管理] グループで [検証] ボタンを選択します
 
     ![スクリーンショットは、操作ウィンドウの [製品] ボタンの下にある [管理] グループを示しています。 [管理] グループの [検証] ボタンが選択されています。](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-10.png)
 

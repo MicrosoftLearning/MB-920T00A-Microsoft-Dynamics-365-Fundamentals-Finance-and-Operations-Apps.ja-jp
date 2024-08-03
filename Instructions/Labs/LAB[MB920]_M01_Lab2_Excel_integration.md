@@ -1,12 +1,12 @@
 ---
 lab:
-  title: 'ラボ 2:Excel 統合'
-  module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
+  title: 'ラボ 1.2: Excel との統合'
+  module: 'Learning Path 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
 ---
+# ラーニング パス 1: Dynamics 365 財務と運用アプリのコア機能を調べる
+# モジュール 3: 財務と運用アプリのレポートおよび統合機能について説明する
 
-# モジュール 1:Dynamics 365 財務と運用アプリの主な機能を調べる
-
-## ラボ 2:Excel 統合
+## ラボ 1.2: Excel との統合
 
 ## 目的
 

@@ -27,8 +27,6 @@ Finance and Operations アプリに馴れたところでインターフェイス
 
     - パスワード: `pass@word1`
 
-1.  次へ進む前に、AdminUserProvisioning スクリプトが完了するのを待ちます。 2 ～ 3 分かかる場合があります。 スクリプトが完了すると、管理者ユーザーの更新完了を確認するポップアップボックスが簡単に表示されます。 
-
 1.  **Microsoft Edge** によって、Finance & Operations URL が開きます: <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
 
 1.  **[リソース]** メニューの [ユーザー名] と [パスワード] を使用してサインインします。 
